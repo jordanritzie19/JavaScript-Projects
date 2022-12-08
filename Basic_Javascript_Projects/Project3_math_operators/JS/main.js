@@ -23,25 +23,25 @@ function remainder() { // 7 % 2
     document.getElementById("remainder").innerHTML = "The remainder after 7 over 2 = " + modulation;
 }
 
-function negate() {
+function negate() { // 'negative' 16
     var negation = 16;
     document.getElementById("negate").innerHTML = -negation;
 }
 
-function increment() {
+function increment() {   //increment 5 one step
     var increment = 5;
     increment++;
     document.getElementById("increment").innerHTML = increment;
 }
 
 
-function decrement() {
+function decrement() {   //decrement 5 one step
     var decrement = 5;
     decrement--;
     document.getElementById("decrement").innerHTML = decrement;
 }
 
-function randint() {
+function randint() {    //grabs a random number between 0 and 10
     var randint = (Math.random() * 10);
     document.getElementById("randint").innerHTML = Math.round(randint);
 }
