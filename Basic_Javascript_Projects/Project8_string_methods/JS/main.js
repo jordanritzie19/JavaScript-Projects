@@ -22,6 +22,12 @@ function who_asked() {  //in console, writes the index 'who' is first seen. this
     console.log(message.search("who"))
 }
 
+function success() {
+    var x = "it worked!";
+    x = x.toString()
+    console.log("this is a test: "+x)
+}
+
 function nobody() { //in console, shows 0 out to 4 digits (0.000 in this case even though only the 0 is shown initially)
     var people_who_asked = "0"; 
     people_who_asked = Number(people_who_asked).toPrecision(4); //converts string to a number with given precision (4)
@@ -42,3 +48,4 @@ who_asked(); //this is just running stuff thats not in the HTML into the console
 nobody();
 pi();
 you_are_great();
+success();
