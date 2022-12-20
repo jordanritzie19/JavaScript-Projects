@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script defer>
+            function how_long() {
+                tootsie_pop_phrase = "How many licks does it take to get to the center of a Tootsie pop?";
+                text_length = tootsie_pop_phrase.length;
+                document.getElementById("phrase").innerHTML = "The famous phrase about how many licks it takes " +
+                "to get to the center of a tootsie pop has " + text_length + " characters in it.";
+            }
+        </script>
+    </head>
+
+    <body>
+        <h1>Fun Fact!</h1>
+        <button onclick="how_long()">reveal</button>
+        <p id="phrase"></p>
+    </body>
+</html>
