@@ -1,0 +1,61 @@
+/* all text */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+/* form container */
+.form_practice {
+    width: 20%;
+    padding: 5px 20px;
+    box-sizing: border-box;
+    border: solid black;
+    outline: none;
+    position: absolute;
+    right: 40%;
+    margin: 2% auto;
+    text-align: center;
+    background-color: lightsalmon;
+}
+
+.form_practice h2 {
+    font-size: 20px;
+    padding-bottom: 10px;
+    text-decoration: underline;
+}
+
+
+/* input boxes */
+.input_box {
+    box-sizing: border-box;
+    padding: 2px 0px 25px;
+    margin: 0;
+}
+
+input[type="text"] {
+    width:100%;
+    padding: 0px 20px;
+    margin: 6px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid gray;
+    background-color: lightsalmon;
+    text-align: center;
+    color: blue;
+    outline: none;
+}
+
+/* submit div */
+.submit {
+    text-align: center;
+}
+
+/* the submit button */
+input[type="submit"] {
+    background-color: lightblue;
+    border: 2px solid black;
+}
+
