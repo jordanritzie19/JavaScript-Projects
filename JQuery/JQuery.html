@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hey, jquery!</title>
+        <meta charset="utf-8">
+        <!-- this is JQuery library link -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    </head>
+    <script>
+        $(document).ready(function() { //ready executes on load, so this runs when the document loads
+            $("html").append( //append adds content at the end of specified element, in this case HTML
+                "<body>\
+                    <div id= 'container'>\
+                        <div id='inner'>\
+                            <h1>Basic jQuery</h1>\
+                            <p id='1'>Paragraph 1</p>\
+                            <p id='2'>Paragraph 2</p>\
+                            <p id='3'>Paragraph 3</p>\
+                        </div>\
+                    </div>\
+                </body>"
+            ); //the above is just regular html to be added, \ is passing a new line through
+            $("#2").css({"color":"red"}); //.css is JQuery syntax to edit CSS through javascript
+            $("#3").click(function() { //.click runs when specified element is clicked
+                $("h1").hide(); //in this case, clicking paragraph 3, hides the h1 tag
+            });
+        });
+    </script>
+
+    <body>
+
+
+    </body>
+</html>
