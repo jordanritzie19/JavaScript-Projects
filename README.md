@@ -15,5 +15,5 @@ This project is a menu used to order pizza with a various selection of toppings.
 The classic game of tic-tac-toe. Take turns facing off in the classic game of Tic-Tac-Toe against a computer. Sound feedback is given upon game completion depending on results, and a line is drawn marking how the game was won.
 
 ### Calculator
-A basic 4 function calculator. Users can add, subtract, multiply and divide on a sleek web version a calculator.
+A basic 4 function calculator. Users can add, subtract, multiply and divide on a sleek web version of a calculator.
 
